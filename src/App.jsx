@@ -5,7 +5,7 @@ import logo from '@images/logo.png';
 const features = [
   {
     title: 'npm run start',
-    description: 'Run the React app in development mode with live reloading.',
+    description: 'Run the React app in development mode with live reloading maybe.',
   },
   {
     title: 'npm run build',
