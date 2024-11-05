@@ -7,14 +7,8 @@ const features = [
     title: 'npm run start',
     description: 'Run the React app in development mode with live reloading maybe.',
   },
-  {
-    title: 'npm run build',
-    description: 'Bundles the React app for deployment in production environment.',
-  },
-  {
-    title: 'npm run inline',
-    description: 'Inline all CSS and JS in a single minfied file.',
-  },
+
+
 ];
 
 const App = () => (
@@ -24,13 +18,12 @@ const App = () => (
       <div className='relative bg-white px-4 py-10 shadow-lg sm:rounded-3xl sm:p-20'>
         <div className='mx-auto max-w-md'>
           <div>
-            <a href='https://digitalinspiration.com/'>
-              <img src={logo} className='h-7 sm:h-8' alt='Logo' />
-            </a>
+
           </div>
           <div className='divide-y divide-gray-200'>
             <div className='space-y-4 py-8 text-base leading-6 text-gray-700 sm:text-lg sm:leading-7'>
-              <p>Quickly setup a React project with Vite and Tailwind CSS.</p>
+              <p>K Woodall  </p>
+       
               <div className='list-disc space-y-2'>
                 {features.map((feature) => (
                   <Feature
@@ -40,9 +33,10 @@ const App = () => (
                   />
                 ))}
               </div>
-              <p>All unused CSS classes are automatically removed from the production build.</p>
+
             </div>
-            <Footer />
+
+
           </div>
         </div>
       </div>
