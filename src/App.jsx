@@ -9,14 +9,12 @@ const features = [
 ];
 
 const App = () => (
-  <div className='flex-col justify-center bg-gray-300'>
-  
-    
-          
-            <div className='space-y-4 py-8 text-base leading-6 text-gray-700 sm:text-lg sm:leading-7'>
+  <div className='flex justify-center justify-items h-screen bg-gray-300'>
+       
+            <div className='mt-10 text-gray-700'>
               <p>K Woodall  </p>
        
-              <div className='list-disc space-y-2'>
+              <div className='text-blue-200'>
                 {features.map((feature) => (
                   <Feature
                     key={feature.title}
