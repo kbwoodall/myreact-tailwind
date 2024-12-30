@@ -1,4 +1,5 @@
 import Feature from '@components/Feature';
+import Footer from '@components/Footer';
 
 const features = [
   {
@@ -21,6 +22,7 @@ const App = () => (
     <div class='mt-10 text-white-700 text-medium font-medium'>
       <p>K Woodall  </p>
     </div>
+    <Footer/>
     <div class='mt-10 text-blue-700 text-lg font-medium'>
       <p>K Woodall  </p>
     </div>
