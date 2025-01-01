@@ -1,5 +1,7 @@
 import Feature from '@components/Feature';
 import Footer from '@components/Footer';
+import LogoImage from '@components/Logo';
+
 
 const features = [
   {
@@ -10,22 +12,17 @@ const features = [
 ];
 
 //<div class="grid grid-flow-col grid-rows-2 grid-cols-3 gap-8">
-//<div class='flex flex-col items-center h-screen bg-gray-300'>
 
 const App = () => (
 
   <div class='flex flex-col items-center h-screen bg-gray-300'>
 
-    <div class='mt-10 text-red-700 text-sm font-medium'>
-      <p>K Woodall  </p>
-    </div>
+
     <div class='mt-10 text-white-700 text-medium font-medium'>
       <p>K Woodall  </p>
     </div>
-    <Footer/>
-    <div class='mt-10 text-blue-700 text-lg font-medium'>
-      <p>K Woodall  </p>
-    </div>
+
+    <LogoImage />
 
   </div>
 );
