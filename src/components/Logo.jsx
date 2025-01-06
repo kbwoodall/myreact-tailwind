@@ -2,9 +2,9 @@
 
 import React from 'react';
 
-const FalconImage = () => {
+const LogoImage = () => {
     return (
-        <div className="flex flex-col items-center m-5">
+        <div className="items-center">
             <img
                 src="src/images/logo.png"
             />
@@ -13,7 +13,7 @@ const FalconImage = () => {
     );
 };
 
-export default FalconImage;
+export default LogoImage;
 
 
 /*  className="max-w-full h-auto rounded-lg shadow-md"
