@@ -4,9 +4,9 @@ import React from 'react';
 
 const LogoImage = () => {
     return (
-        <div className="items-center">
+        <div className="items-center mb-10">
             <img
-                src="src/images/logo.png"
+                src="src/images/pebblebeach.jpeg"
             />
 
         </div>
