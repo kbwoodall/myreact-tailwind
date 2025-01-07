@@ -4,9 +4,10 @@ import React from 'react';
 
 const LogoImage = () => {
     return (
-        <div className="items-center mb-10">
+        <div className="items-center mb-5">
             <img
                 src="src/images/pebblebeach.jpeg"
+                className='w-120 h-96'          
             />
 
         </div>

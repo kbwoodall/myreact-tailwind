@@ -19,7 +19,7 @@ const App = () => (
   <div class='flex flex-col items-center h-screen bg-gray-300'>
 
 
-    <div class='mt-10 text-blue-700 font-bold mb-10'>
+    <div class='mt-10 text-blue-700 font-bold mb-5'>
       <p>K Woodall Pebble Beach </p>
     </div>
 
