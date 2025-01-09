@@ -2,6 +2,7 @@ import Feature from '@components/Feature';
 import Footer from '@components/Footer';
 import LogoImage from '@components/Logo.jsx';
 import InputWidget from '@components/InputWidget';
+import Calculator from '@components/Calculator';
 
 
 const features = [
@@ -23,8 +24,7 @@ const App = () => (
       <p>K Woodall Pebble Beach </p>
     </div>
 
-    <LogoImage />
-    <InputWidget/>  
+    <Calculator />
 
   </div>
 );
@@ -32,6 +32,8 @@ const App = () => (
 export default App;
 
 /*
+
+
 
        </div>
             </div>
